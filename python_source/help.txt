@@ -1,0 +1,19 @@
+The basic commands for use the programm:
+    1. "show ports" - you can see all avalible ports
+    2. "connect" - use this whith separator ('>') and enter your port
+    For example: connect>/dev/ttyUSB0
+    3. "disconnect" - use this to disconnect arduino!
+    4. "start parsing" - use this to see what arduino send you
+    For example: start parsing>500000
+    5. "write" - use this to send data to arduino
+    6. "exit" - use this to exit
+    7. "ft" - this is new command. use this for fast parsing(not work)
+Separator = ">"
+
+First steps:
+    1. see all porst: show ports
+    2. select your port and connect them: connect>/dev/ttyUSB0
+    3. for example start parsing: start parsing>50000
+    4. write n to on led on arduino: write>n
+    5. disconnect port: diconnect
+    6. exit (if you enter exit the port be disconnect automatic): exit
